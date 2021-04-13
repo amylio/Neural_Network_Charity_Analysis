@@ -71,5 +71,5 @@ In summary, our model and various optimizations did not help to achieve the desi
 Overall, Neural Networks are very intricate and would require experience through trial and error or many iterations to identify the perfect configuration to work with this dataset.
 
 ## Resources
-**Software:** Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
-**Libraries:** Scikit-learn, Pandas, TensorFlow, Keras
+* **Software:** Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
+* **Libraries:** Scikit-learn, Pandas, TensorFlow, Keras
