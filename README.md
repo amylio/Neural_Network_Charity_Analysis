@@ -37,12 +37,16 @@ CSV containing more than 34,000 organizations that have received funding from Al
 * **ASK_AMT**—Funding amount requested
 * **IS_SUCCESSFUL**—Was the money used effectively
 
+### Data Preprocessing
+
 To start, we needed to preprocess the data in order to compile, train and evaluate the neural network model. For the ***Data Preprocessing*** portion:
 
 * **EIN** and **NAME** columns were removed during the preprocessing stage as these columns added no value.
 * We also binned **APPLICATION_TYPE** and categorized any unique values with less that 500 records as "Other"  
 * **IS_SUCCESSFUL** column was the target variable.
 * The remaining 43 variables were added as the features (i.e. STATUS, ASK_AMT, APPLICATION TYPE, etc.)
+
+### Compiling, Training and Evaluating the Model
 
 After the data was preprocessed, we used the following parameters to ***compile, train, and evaluate the model***:
 
@@ -56,7 +60,7 @@ After the data was preprocessed, we used the following parameters to ***compile,
 
 ![orig](https://github.com/amylio/Neural_Network_Charity_Analysis/blob/main/Images/Orig2.png)
 
-***Attempts to optimize and improve the accuracy rate***
+### Attempts to Optimize and Improve the Accuracy Rate
 
 Three additional attempts were made to increase the model's performance by changing features, adding/subtracting neurons and epochs. The results did not show any improvement. 
 
