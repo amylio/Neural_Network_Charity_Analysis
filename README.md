@@ -44,7 +44,7 @@ To start, we needed to preprocess the data in order to compile, train and evalua
 * **IS_SUCCESSFUL** column was the target variable.
 * The remaining 43 variables were added as the features (i.e. STATUS, ASK_AMT, APPLICATION TYPE, etc.)
 
-After the data was preprocessed, we used the following parameters to ***compile, train, and evaluate the model***
+After the data was preprocessed, we used the following parameters to ***compile, train, and evaluate the model***:
 
 * The initial model had a total of 5,981 parameters as a result of 43 inputs with 2 hidden layers and 1 output layer. 
   * The first hidden layer had 43 inputs, 80 neurons and 80 bias terms. 
