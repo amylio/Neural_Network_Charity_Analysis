@@ -4,7 +4,7 @@ An exercise in Neural Networks and Deep Learning Models using TensorFlow and Pan
 
 ## Overview
 
-The purpose of this analysis was to explore and implement neural networks using `TensorFlow` in `Python`. Neural networks is an advanced form of `Machine Learning` that can recognize patterns and features in the dataset. Neural networks are modeled after the human brain and contain layers of neurons that can perform individual computations. A great example of a `Deep Learning Neural Network` would be image recognition. The neural network will compute, connect, weight and return an encoded categorical result to identify if the image represents a "dog" or a "cat" or as shown in the image below, George Washington. 
+The purpose of this analysis was to explore and implement neural networks using `TensorFlow` in `Python`. Neural networks is an advanced form of `Machine Learning` that can recognize patterns and features in the dataset. Neural networks are modeled after the human brain and contain layers of neurons that can perform individual computations. A great example of a `Deep Learning Neural Network` would be image recognition. The neural network will compute, connect, weigh and return an encoded categorical result to identify if the image represents a "dog" or a "cat" or as shown in the image below, George Washington. 
 
 ![neural](https://github.com/amylio/Neural_Network_Charity_Analysis/blob/main/Images/Neural.jpg)
 
