@@ -52,9 +52,11 @@ After the data was preprocessed, we used the following parameters to ***compile,
   * The output layer had 30 inputs (number of neurons from the second hidden layer), 1 neuron, and 1 bias term. 
   * Both the first and second hidden layers were activated using `RELU - Rectified Linear Unit` function. The output layer was activated using the `Sigmoid` function. 
 
-The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 72.33%
+* The target performance for the accuracy rate is greater than 75%. The model that was created only achieved an accuracy rate of 72.33%
 
 ![orig](https://github.com/amylio/Neural_Network_Charity_Analysis/blob/main/Images/Orig2.png)
+
+***Attempts to optimize and improve the accuracy rate***
 
 Three additional attempts were made to increase the model's performance by changing features, adding/subtracting neurons and epochs. The results did not show any improvement. 
 
